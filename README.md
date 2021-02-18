@@ -86,7 +86,20 @@ npm run build
 
 ```json
 "homepage": "https://имя_пользователя.github.io/имя_репозитория"
+
+  "homepage": "https://taras-vlas.github.io/goit-js-hw-12-countries"
 ```
+        git init
+        git add -A
+      + git add --all
+      + git commit -a -m “hw 12 add - комiт”     (-am ),
+
+    git remote add origin https://github.com/taras-vlas/goit-js-hw-10-food-service.git
+      git remote add origin https://github.com/taras-vlas/goit-js-hw-12-countries
+    git branch -M master
+    git push -u origin master
+
+
 
 После чего в терминале выполнить следующую команду.
 
@@ -99,3 +112,39 @@ npm run deploy
 `gh-pages` на удаленном (remote) репозитории. Через какое-то время живую
 страницу можно будет посмотреть по адресу указанному в отредактированном
 свойстве `homepage`.
+
+
+
+# PROXY
+фреймворк який створює Вебсервер
+
+cd ..
+mkdir proxy
+cd proxy
+npm init -y
+code .
+npm i express
+
+
+node index.js
+
+http://localhost:8888/about
+http://localhost:8888/products
+// треба node.js
+// goit-phonebook-api.herokuapp.com/docs/#/
+
+
+# pixabay.com/api/docs/
+10minutemail.com    рандомна почта
+
+
+#  СКРОЛ
+- Кнопками
+- Плагін скрола
+              https://infinite-scroll.com/
+
+- Пагінація pagination-controls plagins /WP, js
+
+2. Кастомний скролінг
+              https://spin.js.org/
+              bootstrap    getbootstrap.com

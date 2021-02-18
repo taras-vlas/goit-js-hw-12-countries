@@ -1,3 +1,4 @@
+
 html {
   box-sizing: border-box;
 }
@@ -17,4 +18,41 @@ body {
    * CSS image reference example.
    */
   background-image: url('./images/bg-pattern.png');
+}
+
+
+
+
+.form-inline {
+  text-align: left;  
+}
+
+.form_country {
+  display: flex;
+  justify-content: left;
+  margin-left: 40px;
+}
+
+.flag {
+  width: 570px;
+}
+
+.text {
+  font-weight: bold;
+}
+
+.form-control {
+  font-size: 28px;
+  line-height: 1.2;
+  text-align: left;
+  margin: 40px;
+  width: 838px;
+}
+
+.listCountry {
+  font-size: 28px;
+  font-weight: bold;
+  max-width: 700px;
+  text-align: left;
+  margin: auto;
 }
